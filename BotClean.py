@@ -1,3 +1,5 @@
+# Same code for BotClean Stochastic,BotClean Large
+
 #function
 def next_move(posr, posc, board):
     import math
