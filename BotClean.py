@@ -14,7 +14,7 @@ def next_move(posr, posc, board):
     
     all_distance = list()
     for i in range(len(location_d)):
-        #manhattan distance getting stuck when there is dirty both side
+        #manhattan distance
         distance = int(abs(location_d[i][0] - bot_pos[0]) + abs(location_d[i][1] - bot_pos[1]))
         #euclidean distance
         #distance = math.sqrt(((location_d[i][0] - bot_pos[0])**2) + ((location_d[i][1] - bot_pos[1])**2))
